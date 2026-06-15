@@ -1,0 +1,58 @@
+[1.072s] Invoking command in '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/src/ghost_mentor': PYTHONPATH=/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ghost_mentor build --build-base /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build install --record /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/install.log --single-version-externally-managed install_data
+[1.422s] running egg_info
+[1.423s] creating ../../build/ghost_mentor/ghost_mentor.egg-info
+[1.423s] writing ../../build/ghost_mentor/ghost_mentor.egg-info/PKG-INFO
+[1.423s] writing dependency_links to ../../build/ghost_mentor/ghost_mentor.egg-info/dependency_links.txt
+[1.423s] writing entry points to ../../build/ghost_mentor/ghost_mentor.egg-info/entry_points.txt
+[1.424s] writing requirements to ../../build/ghost_mentor/ghost_mentor.egg-info/requires.txt
+[1.424s] writing top-level names to ../../build/ghost_mentor/ghost_mentor.egg-info/top_level.txt
+[1.424s] writing manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'
+[1.426s] reading manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'
+[1.427s] writing manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'
+[1.427s] running build
+[1.427s] running build_py
+[1.427s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build
+[1.427s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib
+[1.428s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+[1.428s] copying ghost_mentor/match_engine.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+[1.428s] copying ghost_mentor/ar_overlay_node.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+[1.428s] copying ghost_mentor/veteran_recorder.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+[1.428s] copying ghost_mentor/save_learner_data.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+[1.428s] copying ghost_mentor/score_dashboard.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+[1.428s] copying ghost_mentor/__init__.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+[1.428s] copying ghost_mentor/ar_overlay_node (사본).py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+[1.428s] running install
+[1.429s] running install_lib
+[1.430s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+[1.430s] copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/match_engine.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+[1.430s] copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/ar_overlay_node.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+[1.430s] copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/veteran_recorder.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+[1.430s] copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/save_learner_data.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+[1.430s] copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/score_dashboard.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+[1.431s] copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/__init__.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+[1.431s] copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/ar_overlay_node (사본).py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+[1.431s] byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/match_engine.py to match_engine.cpython-310.pyc
+[1.434s] byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/ar_overlay_node.py to ar_overlay_node.cpython-310.pyc
+[1.439s] byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/veteran_recorder.py to veteran_recorder.cpython-310.pyc
+[1.441s] byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/save_learner_data.py to save_learner_data.cpython-310.pyc
+[1.442s] byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/score_dashboard.py to score_dashboard.cpython-310.pyc
+[1.443s] byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/__init__.py to __init__.cpython-310.pyc
+[1.443s] byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/ar_overlay_node (사본).py to ar_overlay_node (사본).cpython-310.pyc
+[1.447s] running install_data
+[1.447s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index
+[1.448s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index
+[1.448s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index/packages
+[1.448s] copying resource/ghost_mentor -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index/packages
+[1.448s] copying package.xml -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor
+[1.448s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/launch
+[1.448s] copying launch/demo_launch.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/launch
+[1.448s] creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/config
+[1.448s] running install_egg_info
+[1.453s] Copying ../../build/ghost_mentor/ghost_mentor.egg-info to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor-0.1.0-py3.10.egg-info
+[1.454s] running install_scripts
+[1.483s] Installing ar_overlay_node script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+[1.483s] Installing save_learner_data script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+[1.483s] Installing score_dashboard script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+[1.483s] Installing veteran_recorder script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+[1.484s] writing list of installed files to '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/install.log'
+[1.534s] Invoked command in '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/src/ghost_mentor' returned '0': PYTHONPATH=/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ghost_mentor build --build-base /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build install --record /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/install.log --single-version-externally-managed install_data

@@ -1,0 +1,56 @@
+running egg_info
+creating ../../build/ghost_mentor/ghost_mentor.egg-info
+writing ../../build/ghost_mentor/ghost_mentor.egg-info/PKG-INFO
+writing dependency_links to ../../build/ghost_mentor/ghost_mentor.egg-info/dependency_links.txt
+writing entry points to ../../build/ghost_mentor/ghost_mentor.egg-info/entry_points.txt
+writing requirements to ../../build/ghost_mentor/ghost_mentor.egg-info/requires.txt
+writing top-level names to ../../build/ghost_mentor/ghost_mentor.egg-info/top_level.txt
+writing manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'
+reading manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'
+writing manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+copying ghost_mentor/match_engine.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+copying ghost_mentor/ar_overlay_node.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+copying ghost_mentor/veteran_recorder.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+copying ghost_mentor/save_learner_data.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+copying ghost_mentor/score_dashboard.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+copying ghost_mentor/__init__.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+copying ghost_mentor/ar_overlay_node (사본).py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor
+running install
+running install_lib
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/match_engine.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/ar_overlay_node.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/veteran_recorder.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/save_learner_data.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/score_dashboard.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/__init__.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/ar_overlay_node (사본).py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor
+byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/match_engine.py to match_engine.cpython-310.pyc
+byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/ar_overlay_node.py to ar_overlay_node.cpython-310.pyc
+byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/veteran_recorder.py to veteran_recorder.cpython-310.pyc
+byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/save_learner_data.py to save_learner_data.cpython-310.pyc
+byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/score_dashboard.py to score_dashboard.cpython-310.pyc
+byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/ar_overlay_node (사본).py to ar_overlay_node (사본).cpython-310.pyc
+running install_data
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index/packages
+copying resource/ghost_mentor -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index/packages
+copying package.xml -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/launch
+copying launch/demo_launch.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/launch
+creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/config
+running install_egg_info
+Copying ../../build/ghost_mentor/ghost_mentor.egg-info to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor-0.1.0-py3.10.egg-info
+running install_scripts
+Installing ar_overlay_node script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+Installing save_learner_data script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+Installing score_dashboard script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+Installing veteran_recorder script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+writing list of installed files to '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/install.log'

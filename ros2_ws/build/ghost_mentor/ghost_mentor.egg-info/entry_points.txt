@@ -1,0 +1,6 @@
+[console_scripts]
+ar_overlay_node = ghost_mentor.ar_overlay_node:main
+save_learner_data = ghost_mentor.save_learner_data:main
+score_dashboard = ghost_mentor.score_dashboard:main
+veteran_recorder = ghost_mentor.veteran_recorder:main
+

@@ -1,0 +1,23 @@
+[1.020s] Invoking command in '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor': PYTHONPATH=/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build --no-deps symlink_data --force
+[1.400s] running develop
+[1.674s] running egg_info
+[1.674s] writing ghost_mentor.egg-info/PKG-INFO
+[1.682s] writing dependency_links to ghost_mentor.egg-info/dependency_links.txt
+[1.682s] writing entry points to ghost_mentor.egg-info/entry_points.txt
+[1.682s] writing requirements to ghost_mentor.egg-info/requires.txt
+[1.682s] writing top-level names to ghost_mentor.egg-info/top_level.txt
+[1.686s] reading manifest file 'ghost_mentor.egg-info/SOURCES.txt'
+[1.687s] writing manifest file 'ghost_mentor.egg-info/SOURCES.txt'
+[1.690s] running build_ext
+[1.690s] Creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost-mentor.egg-link (link to .)
+[1.691s] Installing ar_overlay_node script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+[1.691s] Installing save_learner_data script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+[1.691s] Installing score_dashboard script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+[1.691s] Installing veteran_recorder script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+[1.692s] 
+[1.692s] Installed /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor
+[1.692s] running symlink_data
+[1.692s] symbolically linking /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/resource/ghost_mentor -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index/packages
+[1.692s] symbolically linking /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/package.xml -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor
+[1.692s] symbolically linking /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/launch/demo_launch.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/launch
+[1.739s] Invoked command in '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor' returned '0': PYTHONPATH=/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build --no-deps symlink_data --force

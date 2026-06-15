@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing ghost_mentor.egg-info/PKG-INFO
+writing dependency_links to ghost_mentor.egg-info/dependency_links.txt
+writing entry points to ghost_mentor.egg-info/entry_points.txt
+writing requirements to ghost_mentor.egg-info/requires.txt
+writing top-level names to ghost_mentor.egg-info/top_level.txt
+reading manifest file 'ghost_mentor.egg-info/SOURCES.txt'
+writing manifest file 'ghost_mentor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost-mentor.egg-link (link to .)
+Installing ar_overlay_node script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+Installing save_learner_data script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+Installing score_dashboard script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+Installing veteran_recorder script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor
+
+Installed /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor
+running symlink_data
+symbolically linking /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/resource/ghost_mentor -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index/packages
+symbolically linking /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/package.xml -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor
+symbolically linking /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/launch/demo_launch.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/launch

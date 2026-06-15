@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000777] (ghost_mentor) JobQueued: {'identifier': 'ghost_mentor', 'dependencies': OrderedDict()}
+[0.000895] (ghost_mentor) JobStarted: {'identifier': 'ghost_mentor'}
+[0.097440] (-) TimerEvent: {}
+[0.197992] (-) TimerEvent: {}
+[0.298568] (-) TimerEvent: {}
+[0.399225] (-) TimerEvent: {}
+[0.499805] (-) TimerEvent: {}
+[0.600302] (-) TimerEvent: {}
+[0.700822] (-) TimerEvent: {}
+[0.801329] (-) TimerEvent: {}
+[0.901790] (-) TimerEvent: {}
+[1.002262] (-) TimerEvent: {}
+[1.069024] (ghost_mentor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ghost_mentor', 'build', '--build-base', '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build', 'install', '--record', '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/src/ghost_mentor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'rhkrgusdud', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rhkrgusdud', 'OLDPWD': '/home/rhkrgusdud', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '3581', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3997', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b556e0617d8c41b88224b25e69f83c3e', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rhkrgusdud', 'JOURNAL_STREAM': '8:30471', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rhkrgusdud', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/rhkrgusdud/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rhkrgusdud-15Z90R-GA56K:@/tmp/.ICE-unix/3997,unix/rhkrgusdud-15Z90R-GA56K:/tmp/.ICE-unix/3997', 'INVOCATION_ID': '5e7189e03b1c4cb8816ac03f84434d11', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'TILIX_ID': '21846c0b-5d25-4308-b0cf-3fe23a0eaede', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b556e0617d8c41b88224b25e69f83c3e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/rhkrgusdud/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'GZ_DISABLE_UDP': '1', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.102335] (-) TimerEvent: {}
+[1.202632] (-) TimerEvent: {}
+[1.303004] (-) TimerEvent: {}
+[1.403397] (-) TimerEvent: {}
+[1.422525] (ghost_mentor) StdoutLine: {'line': b'running egg_info\n'}
+[1.423547] (ghost_mentor) StdoutLine: {'line': b'creating ../../build/ghost_mentor/ghost_mentor.egg-info\n'}
+[1.424064] (ghost_mentor) StdoutLine: {'line': b'writing ../../build/ghost_mentor/ghost_mentor.egg-info/PKG-INFO\n'}
+[1.424214] (ghost_mentor) StdoutLine: {'line': b'writing dependency_links to ../../build/ghost_mentor/ghost_mentor.egg-info/dependency_links.txt\n'}
+[1.424289] (ghost_mentor) StdoutLine: {'line': b'writing entry points to ../../build/ghost_mentor/ghost_mentor.egg-info/entry_points.txt\n'}
+[1.424386] (ghost_mentor) StdoutLine: {'line': b'writing requirements to ../../build/ghost_mentor/ghost_mentor.egg-info/requires.txt\n'}
+[1.424483] (ghost_mentor) StdoutLine: {'line': b'writing top-level names to ../../build/ghost_mentor/ghost_mentor.egg-info/top_level.txt\n'}
+[1.424592] (ghost_mentor) StdoutLine: {'line': b"writing manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'\n"}
+[1.426744] (ghost_mentor) StdoutLine: {'line': b"reading manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'\n"}
+[1.427698] (ghost_mentor) StdoutLine: {'line': b"writing manifest file '../../build/ghost_mentor/ghost_mentor.egg-info/SOURCES.txt'\n"}
+[1.427821] (ghost_mentor) StdoutLine: {'line': b'running build\n'}
+[1.427886] (ghost_mentor) StdoutLine: {'line': b'running build_py\n'}
+[1.428149] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build\n'}
+[1.428264] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib\n'}
+[1.428376] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor\n'}
+[1.428442] (ghost_mentor) StdoutLine: {'line': b'copying ghost_mentor/match_engine.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor\n'}
+[1.428557] (ghost_mentor) StdoutLine: {'line': b'copying ghost_mentor/ar_overlay_node.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor\n'}
+[1.428622] (ghost_mentor) StdoutLine: {'line': b'copying ghost_mentor/veteran_recorder.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor\n'}
+[1.428714] (ghost_mentor) StdoutLine: {'line': b'copying ghost_mentor/save_learner_data.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor\n'}
+[1.428805] (ghost_mentor) StdoutLine: {'line': b'copying ghost_mentor/score_dashboard.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor\n'}
+[1.428898] (ghost_mentor) StdoutLine: {'line': b'copying ghost_mentor/__init__.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor\n'}
+[1.429000] (ghost_mentor) StdoutLine: {'line': b'copying ghost_mentor/ar_overlay_node (\xec\x82\xac\xeb\xb3\xb8).py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor\n'}
+[1.429186] (ghost_mentor) StdoutLine: {'line': b'running install\n'}
+[1.429718] (ghost_mentor) StdoutLine: {'line': b'running install_lib\n'}
+[1.430750] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor\n'}
+[1.430829] (ghost_mentor) StdoutLine: {'line': b'copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/match_engine.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor\n'}
+[1.430932] (ghost_mentor) StdoutLine: {'line': b'copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/ar_overlay_node.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor\n'}
+[1.431024] (ghost_mentor) StdoutLine: {'line': b'copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/veteran_recorder.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor\n'}
+[1.431215] (ghost_mentor) StdoutLine: {'line': b'copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/save_learner_data.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor\n'}
+[1.431294] (ghost_mentor) StdoutLine: {'line': b'copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/score_dashboard.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor\n'}
+[1.431465] (ghost_mentor) StdoutLine: {'line': b'copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/__init__.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor\n'}
+[1.431524] (ghost_mentor) StdoutLine: {'line': b'copying /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/build/lib/ghost_mentor/ar_overlay_node (\xec\x82\xac\xeb\xb3\xb8).py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor\n'}
+[1.432093] (ghost_mentor) StdoutLine: {'line': b'byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/match_engine.py to match_engine.cpython-310.pyc\n'}
+[1.434789] (ghost_mentor) StdoutLine: {'line': b'byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/ar_overlay_node.py to ar_overlay_node.cpython-310.pyc\n'}
+[1.439919] (ghost_mentor) StdoutLine: {'line': b'byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/veteran_recorder.py to veteran_recorder.cpython-310.pyc\n'}
+[1.441841] (ghost_mentor) StdoutLine: {'line': b'byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/save_learner_data.py to save_learner_data.cpython-310.pyc\n'}
+[1.442824] (ghost_mentor) StdoutLine: {'line': b'byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/score_dashboard.py to score_dashboard.cpython-310.pyc\n'}
+[1.443711] (ghost_mentor) StdoutLine: {'line': b'byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/__init__.py to __init__.cpython-310.pyc\n'}
+[1.443886] (ghost_mentor) StdoutLine: {'line': b'byte-compiling /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor/ar_overlay_node (\xec\x82\xac\xeb\xb3\xb8).py to ar_overlay_node (\xec\x82\xac\xeb\xb3\xb8).cpython-310.pyc\n'}
+[1.448018] (ghost_mentor) StdoutLine: {'line': b'running install_data\n'}
+[1.448239] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index\n'}
+[1.448402] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index\n'}
+[1.448571] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index/packages\n'}
+[1.448717] (ghost_mentor) StdoutLine: {'line': b'copying resource/ghost_mentor -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ament_index/resource_index/packages\n'}
+[1.448843] (ghost_mentor) StdoutLine: {'line': b'copying package.xml -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor\n'}
+[1.448912] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/launch\n'}
+[1.449012] (ghost_mentor) StdoutLine: {'line': b'copying launch/demo_launch.py -> /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/launch\n'}
+[1.449116] (ghost_mentor) StdoutLine: {'line': b'creating /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/share/ghost_mentor/config\n'}
+[1.449227] (ghost_mentor) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.454172] (ghost_mentor) StdoutLine: {'line': b'Copying ../../build/ghost_mentor/ghost_mentor.egg-info to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/python3.10/site-packages/ghost_mentor-0.1.0-py3.10.egg-info\n'}
+[1.455060] (ghost_mentor) StdoutLine: {'line': b'running install_scripts\n'}
+[1.483795] (ghost_mentor) StdoutLine: {'line': b'Installing ar_overlay_node script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor\n'}
+[1.483952] (ghost_mentor) StdoutLine: {'line': b'Installing save_learner_data script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor\n'}
+[1.484077] (ghost_mentor) StdoutLine: {'line': b'Installing score_dashboard script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor\n'}
+[1.484136] (ghost_mentor) StdoutLine: {'line': b'Installing veteran_recorder script to /home/rhkrgusdud/ar_ghost_mentor/ros2_ws/install/ghost_mentor/lib/ghost_mentor\n'}
+[1.484668] (ghost_mentor) StdoutLine: {'line': b"writing list of installed files to '/home/rhkrgusdud/ar_ghost_mentor/ros2_ws/build/ghost_mentor/install.log'\n"}
+[1.503544] (-) TimerEvent: {}
+[1.534523] (ghost_mentor) CommandEnded: {'returncode': 0}
+[1.554405] (ghost_mentor) JobEnded: {'identifier': 'ghost_mentor', 'rc': 0}
+[1.555495] (-) EventReactorShutdown: {}
