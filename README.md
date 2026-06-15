@@ -1,101 +1,103 @@
 # AR Ghost Mentor
 
-    Visualizing the tacit knowledge of skilled veterans using an AR Ghost skeleton to bridge technical training and language barriers.
+Visualizing Tacit Knowledge of Skilled Veterans using an AR Ghost Skeleton to Bridge Technical Training and Language Barriers
 
-# 📂 Directory Structure
+This repository features a robust, real-time autonomous gesture matching and guidance system designed for technical skill transfer. The system integrates real-time skeleton normalization, weighted cosine similarity, and dynamic time warping (DTW) window search to guide learners through complex manual workflows via AR overlays.
+Tech Stack & Environment
 
-ar_ghost_mentor/
+- OS: Ubuntu 22.04 LTS
 
-│
+- Framework: ROS 2 (Humble)
 
-├── ros2_ws/
-│   └── src/
-│       └── ghost_mentor/
-│           ├── ghost_mentor/               ← ROS2 Node Package
-│           │   ├── init.py
-│           │   ├── veteran_recorder.py     # [Node] Records veteran movements
-│           │   ├── match_engine.py         # [Library] Gesture matching & scoring algorithm
-│           │   ├── ar_overlay_node.py      # [Node] Main AR overlay UI for learners
-│           │   └── score_dashboard.py      # [Node] Terminal-based score dashboard
-│           ├── launch/
-│           │   └── demo_launch.py          # Launches the entire system at once
-│           ├── resource/ghost_mentor
-│           ├── package.xml
-│           └── setup.py
+- Language: Python 3
+
+- Libraries: MediaPipe, OpenCV, NumPy
+
+- Hardware: RGB-D Camera / Webcam, Terminal Dashboard Display
+
+# Key Modules & Architecture
+
+- Perception & Preprocessing
+
+- Spatial Normalization using hip center and shoulder width
+
+- 11 Major Bone Segment Vector Extraction
+
+- Frame Filtering & Multi-Iteration Ensemble Preprocessing
+
+- Estimation & Matching
+
+- Weighted Cosine Similarity Scoring
+
+- Unidirectional Dynamic Time Warping (DTW) Sliding Window Search
+
+- Error Vector Estimation for Angular Discrepancy Guidance
+
+- Control & Visualization
+
+- Real-Time AR Skeleton Overlay UI
+
+- Event-Driven State and Milestone Publishing
+
+- Terminal-Based Live Scoring Dashboard
+
+# Project Structure
+```
+├── ros2_ws/src/ghost_mentor/
+│   ├── ghost_mentor/               <- ROS 2 Node Package
+│   │   ├── init.py
+│   │   ├── veteran_recorder.py     # [Node] Records veteran movements
+│   │   ├── match_engine.py         # [Library] Gesture matching & scoring algorithm
+│   │   ├── ar_overlay_node.py      # [Node] Main AR overlay UI for learners
+│   │   └── score_dashboard.py      # [Node] Terminal-based score dashboard
+│   ├── launch/
+│   │   └── demo_launch.py          # Launches the entire system at once
+│   ├── package.xml
+│   └── setup.py
 │
 ├── tools/
-│   └── ghost_builder.py                    # Preprocesses raw recordings into Master Ghost (No ROS2 required)
+│   └── ghost_builder.py                    # Preprocesses raw recordings into Master Ghost (No ROS 2 required)
 │
 └── data/
 ├── raw/                                # Raw JSON recordings from veterans (Multiple files)
-│   └── screw_tightening/
-│       ├── screw_tightening_20240501_143022.json
-│       ├── screw_tightening_20240501_143501.json
-│       └── ...
 └── sequences/                          # Processed Master Ghost JSON sequences
-└── screw_tightening_master.json
+```
 
-# ⚙️ Installation & Setup
+# Installation & Setup
 Prerequisites & Dependencies
-Install Python packages
-
+```
+# Install Python packages
 pip install mediapipe==0.10.9 opencv-python==4.8.1.78 "numpy<2" --break-system-packages --no-deps
-Install ROS2 package dependencies
 
+# Install ROS 2 package dependencies
 sudo apt install ros-humble-cv-bridge ros-humble-visualization-msgs
-Build the Workspace
-Navigate and build
+```
 
+Build the Workspace
+```
+# Navigate and build
 cd ~/ar_ghost_mentor/ros2_ws
 source /opt/ros/humble/setup.bash
 colcon build --packages-select ghost_mentor
 source install/setup.bash
-(Optional) Auto-source on opening a new terminal
 
+# (Optional) Auto-source on opening a new terminal
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 echo "source ~/ar_ghost_mentor/ros2_ws/install/setup.bash" >> ~/.bashrc
+```
+# Workflow & Usage
+STEP 1 - Record Veteran Movements
+```
+ros2 run ghost_mentor veteran_recorder --ros-args -p task_name:=screw_tightening -p save_dir:=/home/your_name/ar_ghost_mentor/data/raw/screw_tightening
+```
+Controls: [Space] to start/stop recording, [q] to save and exit.
 
-# 🚀 Workflow & Usage
-STEP 1 — Record Veteran Movements
-
-It is highly recommended to record multiple times (10 to 30+ iterations) to build a stable and robust Master Ghost.
-
-ros2 run ghost_mentor veteran_recorder --ros-args -p task_name:=screw_tightening -p save_dir:=/home/rhkrgusdud/ar_ghost_mentor/data/raw/screw_tightening
-Controls:
-[Space] → Start / Stop Recording
-[q]     → Save and Exit
-Execute multiple times to stack raw data in the raw/ directory.
-STEP 2 — Generate the Master Ghost
-Single Mode (For quick testing)
-
-python3 ~/ar_ghost_mentor/tools/ghost_builder.py --mode single --input  ~/ar_ghost_mentor/data/raw/screw_tightening/YOUR_FILE_NAME.json --output ~/ar_ghost_mentor/data/sequences/screw_tightening_master.json
-Multi Mode (Ensemble for production — Recommended)
-
-python3 ~/ar_ghost_mentor/tools/ghost_builder.py --mode multi --input_dir ~/ar_ghost_mentor/data/raw/screw_tightening --output    ~/ar_ghost_mentor/data/sequences/screw_tightening_master.json --task      screw_tightening
-STEP 3 — Run the AR Demonstration
-Option A: Run individual nodes manually
-Terminal 1 — AR Main Overlay
-
-ros2 run ghost_mentor ar_overlay_node --ros-args -p ghost_path:=/home/rhkrgusdud/ar_ghost_mentor/data/sequences/screw_tightening_master.json -p threshold:=87.0
-Terminal 2 — Dashboard Display
-
-ros2 run ghost_mentor score_dashboard
-Option B: Run everything at once via Launch File (Recommended)
-
+STEP 2 - Generate the Master Ghost
+```
+# Multi Mode (Ensemble for production - Recommended)
+python3 ~/ar_ghost_mentor/tools/ghost_builder.py --mode multi --input_dir ~/ar_ghost_mentor/data/raw/screw_tightening --output ~/ar_ghost_mentor/data/sequences/screw_tightening_master.json --task screw_tightening
+```
+STEP 3 - Run the AR Demonstration
+```
 ros2 launch ghost_mentor demo_launch.py ghost_path:=/home/rhkrgusdud/ar_ghost_mentor/data/sequences/screw_tightening_master.json
-
-# 🖥️ UI & Display Layout
-
-┌─────────────────────────────────────────────────────┐
-│  [Ghost: 14/42] ━━━━░░░   ← Top-Right: Ghost Progress Bar   │
-│                                                     │
-│   Cyan Translucent Skeleton → Veteran Ghost         │
-│   Golden Skeleton          → Learner's Real-time Pose│
-│   Blue Arrows              → Correction Direction   │
-│                                                     │
-│         [NEXT] Preview    ← Bottom-Right: Upcoming Gesture  │
-│                                                     │
-│  72.4% [━━━━━░│90%░░]    ← Bottom: Similarity Match Bar     │
-│  Red(<80%) / Yellow(80~90%) / Green(90%+)          │
-└─────────────────────────────────────────────────────┘
-SUCCESS ✓ NEXT STEP     ← Visible only when similarity >= 90%
+```
