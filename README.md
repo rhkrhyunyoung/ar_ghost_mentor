@@ -2,6 +2,13 @@
 
 Externalizing Tacit Knowledge via AR-Driven Skill Transfer & Real-time Biometric Alignment
 
+![alt text](https://img.shields.io/badge/Competition-Engineering_Industry_Design_Contest-blue?style=for-the-badge)
+
+
+![alt text](https://img.shields.io/badge/ROS2-Humble-0A0FF9?style=for-the-badge&logo=ros&logoColor=white)
+
+
+![alt text](https://img.shields.io/badge/python-3.10+-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 "Human-Centric Engineering for the Next Industrial Era."
 AR Ghost Mentor bridges the gap between veteran expertise and novice execution. By transforming the "tacit knowledge" of skilled workers into "explicit digital data," this system enables intuitive, language-barrier-free training using AR skeleton overlays and high-precision motion matching.
 
